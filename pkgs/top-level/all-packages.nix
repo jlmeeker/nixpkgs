@@ -21873,6 +21873,7 @@ with pkgs;
   pstreams = callPackage ../development/libraries/pstreams {};
 
   pufferpanel = callPackage ../servers/pufferpanel { };
+  pufferpanel_2_5 = callPackage ../servers/pufferpanel/2.5.nix { };
 
   pugixml = callPackage ../development/libraries/pugixml { };
 
